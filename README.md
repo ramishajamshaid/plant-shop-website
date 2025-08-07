@@ -1,25 +1,35 @@
 # 🌿 Plantora - Plant Shop Website
 
-Welcome to *Plantora, a simple and elegant plant shop website built using **HTML* and *CSS*.  
+Welcome to **Plantora**, a simple and elegant plant shop website built using **HTML** and **CSS**.  
 This is a front-end only static website suitable for plant stores or nurseries looking for a modern online presence.
 
 ## 🖼 Live Preview
-🔗 [View Website](https://ramishajamshaid.github.io/plant-shop-website/)  
-(Hosted on GitHub Pages)
+🔗 **[View Website](https://ramishajamshaid.github.io/plant-shop-website/)**
+*(Hosted on GitHub Pages)*
 
 ## 💡 Features
 
-- Homepage with hero section and welcome message
-- Shop page showcasing plant categories or items
-- About page introducing the brand/store
-- Contact page with basic contact details
-- Responsive layout using only HTML and CSS
+- **Homepage** with hero section and welcome message
+- **Shop page** showcasing plant categories or items
+- **About page** introducing the brand/store
+- **Contact page** with basic contact details
+- **Responsive layout** using only HTML and CSS
 
 ## 🛠 Technologies Used
 
-- HTML5
-- CSS3
-- Git & GitHub for version control and hosting
+- **HTML5**
+- **CSS3**
+- **Git & GitHub** for version control and hosting
+
+## 📥 How to Clone This Repository
+
+If you'd like to view or edit this website locally, follow these steps:
+
+```bash
+git clone https://github.com/ramishajamshaid/plant-shop-website.git
+```
+
+Then, open the folder and double-click on the `index.html` file to open it in your browser.
 
 ## 📌 Note
 
