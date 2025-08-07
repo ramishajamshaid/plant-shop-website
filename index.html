@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-Plantora eCommerce</title>
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav-bar">
+      <div class="nav-container">
+        <a href="#www.plantora.com" class="logo"
+          ><img
+            src="images/logo-white.png"
+            alt="Plantora Logo"
+            class="logo-img"
+        /></a>
+        <div class="nav-box">
+          <ul class="nav-links">
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="shop.html" target="_blank">Shop</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+          </ul>
+          <div class="-header-social-acc">
+            <ul class="header-social-acc-links">
+              <li>
+                <a href="contact.html" target="_blank"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="social-acc-logo fb-logo"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H12V13H11C10.4477 13 10 12.5523 10 12C10 11.4477 10.4477 11 11 11H12V9.5C12 7.567 13.567 6 15.5 6H16.1C16.6523 6 17.1 6.44772 17.1 7C17.1 7.55228 16.6523 8 16.1 8H15.5C14.6716 8 14 8.67157 14 9.5V11H16.1C16.6523 11 17.1 11.4477 17.1 12C17.1 12.5523 16.6523 13 16.1 13H14V20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6Z"
+                        fill="#ffffff"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" target="_blank">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="social-acc-logo insta-logo"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                        fill="#ffffff"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" target="_blank">
+                  <svg
+                    fill="#ffffff"
+                    viewBox="0 -4 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="xMidYMid"
+                    class="social-acc-logo yt-logo"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M30.722,20.579 C30.137,21.894 28.628,23.085 27.211,23.348 C27.066,23.375 23.603,24.000 16.010,24.000 L15.990,24.000 C8.398,24.000 4.932,23.375 4.788,23.349 C3.371,23.085 1.861,21.894 1.275,20.578 C1.223,20.461 0.001,17.647 0.001,12.000 C0.001,6.353 1.223,3.538 1.275,3.421 C1.861,2.105 3.371,0.915 4.788,0.652 C4.932,0.625 8.398,-0.000 15.990,-0.000 C23.603,-0.000 27.066,0.625 27.210,0.651 C28.628,0.915 30.137,2.105 30.723,3.420 C30.775,3.538 32.000,6.353 32.000,12.000 C32.000,17.647 30.775,20.461 30.722,20.579 ZM28.893,4.230 C28.581,3.529 27.603,2.759 26.845,2.618 C26.813,2.612 23.386,2.000 16.010,2.000 C8.615,2.000 5.185,2.612 5.152,2.618 C4.394,2.759 3.417,3.529 3.104,4.234 C3.094,4.255 2.002,6.829 2.002,12.000 C2.002,17.170 3.094,19.744 3.106,19.770 C3.417,20.471 4.394,21.241 5.153,21.382 C5.185,21.388 8.615,22.000 15.990,22.000 L16.010,22.000 C23.386,22.000 26.813,21.388 26.846,21.382 C27.604,21.241 28.581,20.471 28.894,19.766 C28.904,19.744 29.998,17.170 29.998,12.000 C29.998,6.830 28.904,4.255 28.893,4.230 ZM13.541,17.846 C13.379,17.949 13.193,18.000 13.008,18.000 C12.842,18.000 12.676,17.959 12.525,17.875 C12.206,17.699 12.008,17.364 12.008,17.000 L12.008,7.000 C12.008,6.637 12.204,6.303 12.521,6.127 C12.838,5.950 13.227,5.958 13.534,6.149 L21.553,11.105 C21.846,11.286 22.026,11.606 22.027,11.951 C22.028,12.296 21.852,12.618 21.560,12.801 L13.541,17.846 ZM14.009,8.794 L14.009,15.189 L19.137,11.963 L14.009,8.794 Z"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" target="_blank">
+                  <svg
+                    fill="#ffffff"
+                    xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="xMidYMid"
+                    viewBox="0 0 31.812 26"
+                    class="social-acc-logo twitter-logo"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M20.877,2.000 C22.519,2.000 24.382,2.652 25.426,3.738 C26.724,3.486 27.949,3.025 29.050,2.386 C28.625,3.687 27.718,4.779 26.540,5.469 C27.693,5.332 28.797,5.035 29.820,4.590 C29.054,5.707 28.087,6.690 26.971,7.477 C26.981,7.715 26.987,7.955 26.987,8.195 C26.987,15.562 21.445,24.000 10.939,24.000 C7.715,24.000 4.507,23.133 1.982,21.551 C2.428,21.605 2.883,21.631 3.343,21.631 C6.019,21.631 8.482,20.740 10.439,19.242 C7.937,19.199 5.827,17.586 5.103,15.373 C5.450,15.437 5.810,15.473 6.178,15.473 C6.696,15.473 7.203,15.406 7.681,15.277 C5.068,14.768 3.100,12.514 3.100,9.813 C3.100,9.787 3.100,9.764 3.100,9.740 C3.871,10.158 4.750,10.410 5.687,10.440 C4.154,9.437 3.147,7.734 3.147,5.799 C3.147,4.777 3.428,3.818 3.919,2.998 C6.735,6.367 10.945,8.588 15.693,8.822 C15.594,8.414 15.543,7.984 15.543,7.553 C15.543,4.473 17.721,2.000 20.877,2.000 M29.820,4.590 L29.825,4.590 M20.877,-0.000 C17.033,-0.000 14.060,2.753 13.614,6.552 C10.425,5.905 7.524,4.204 5.440,1.711 C5.061,1.257 4.503,0.998 3.919,0.998 C3.867,0.998 3.815,1.000 3.763,1.004 C3.123,1.055 2.547,1.413 2.216,1.966 C1.525,3.122 1.159,4.447 1.159,5.799 C1.159,6.700 1.321,7.579 1.625,8.400 C1.300,8.762 1.113,9.238 1.113,9.740 L1.113,9.813 C1.113,11.772 1.882,13.589 3.160,14.952 C3.087,15.294 3.103,15.655 3.215,15.998 C3.657,17.348 4.459,18.510 5.499,19.396 C4.800,19.552 4.079,19.631 3.343,19.631 C2.954,19.631 2.577,19.609 2.222,19.565 C2.141,19.556 2.061,19.551 1.981,19.551 C1.148,19.551 0.391,20.078 0.108,20.886 C-0.202,21.770 0.140,22.753 0.932,23.249 C3.764,25.023 7.318,26.000 10.939,26.000 C17.778,26.000 22.025,22.843 24.383,20.195 C27.243,16.984 28.907,12.718 28.972,8.455 C29.899,7.682 30.717,6.790 31.410,5.792 C31.661,5.458 31.810,5.041 31.810,4.590 C31.810,3.909 31.473,3.308 30.958,2.946 C31.181,2.176 30.925,1.342 30.303,0.833 C29.940,0.537 29.496,0.386 29.049,0.386 C28.708,0.386 28.365,0.474 28.056,0.654 C27.391,1.040 26.680,1.344 25.931,1.562 C24.555,0.592 22.688,-0.000 20.877,-0.000 L20.877,-0.000 Z"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="menu-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="#77ad39"
+            stroke="#77ad39"
+            stroke-width="0.3"
+            style="width: 32px; height: 32px"
+            class="hamburger-icon"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <p>Welcome to Plantora</p>
+        <h1>Discover the Beauty of Nature at your Fingertips</h1>
+        <a href="shop.html" class="shop-btn" target="_blank">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+      <div class="services-content">
+        <div class="service-box">
+          <div class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="#3A3A3A"
+              class="size-6"
+            >
+              <path
+                d="M4.5 3.75a3 3 0 0 0-3 3v.75h21v-.75a3 3 0 0 0-3-3h-15Z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M22.5 9.75h-21v7.5a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3v-7.5Zm-18 3.75a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1-.75-.75Zm.75 2.25a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div class="services-text">
+            <h3 class="services-heading">Secure Payment</h3>
+            <p class="services-desc">
+              Your transactions are safe and encrypted.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="#3A3A3A"
+              class="size-6"
+            >
+              <path
+                d="M3.375 4.5C2.339 4.5 1.5 5.34 1.5 6.375V13.5h12V6.375c0-1.036-.84-1.875-1.875-1.875h-8.25ZM13.5 15h-12v2.625c0 1.035.84 1.875 1.875 1.875h.375a3 3 0 1 1 6 0h3a.75.75 0 0 0 .75-.75V15Z"
+              />
+              <path
+                d="M8.25 19.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0ZM15.75 6.75a.75.75 0 0 0-.75.75v11.25c0 .087.015.17.042.248a3 3 0 0 1 5.958.464c.853-.175 1.522-.935 1.464-1.883a18.659 18.659 0 0 0-3.732-10.104 1.837 1.837 0 0 0-1.47-.725H15.75Z"
+              />
+              <path d="M19.5 19.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" />
+            </svg>
+          </div>
+          <div class="services-text">
+            <h3 class="services-heading">Free Shipping</h3>
+            <p class="services-desc">Enjoy free shipping on orders over $50</p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="#3A3A3A"
+              class="size-6"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 0 0 4.25 22.5h15.5a1.875 1.875 0 0 0 1.865-2.071l-1.263-12a1.875 1.875 0 0 0-1.865-1.679H16.5V6a4.5 4.5 0 1 0-9 0ZM12 3a3 3 0 0 0-3 3v.75h6V6a3 3 0 0 0-3-3Zm-3 8.25a3 3 0 1 0 6 0v-.75a.75.75 0 0 1 1.5 0v.75a4.5 4.5 0 1 1-9 0v-.75a.75.75 0 0 1 1.5 0v.75Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div class="services-text">
+            <h3 class="services-heading">Delivered with Care</h3>
+            <p class="services-desc">
+              Every package handled with extra attention.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+              />
+            </svg>
+          </div>
+          <div class="services-text">
+            <h3 class="services-heading">Excellent Service</h3>
+            <p class="services-desc">Customer support that truely cares.</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <!-- Trending Products section -->
+    <section class="trending-products">
+      <div>
+        <h2 class="section-heading">Trending Products</h2>
+      </div>
+      <div class="products">
+        <div class="product-card">
+          <div class="card-image">
+            <div class="cart-img">
+              <img src="images/bag-svg.svg" class="add-to-cart" />
+            </div>
+            <a href="https://plantora/product/golden-glow/"
+              ><img src="images/trending-product-1.jpg" class="plant-img"
+            /></a>
+          </div>
+          <div class="card-content">
+            <a href="https://plantora/product/golden-glow/" class="product-name"
+              >Golden Glow</a
+            >
+            <p class="product-desc">Indoor Plants</p>
+            <span class="price">$85.00</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="card-image">
+            <div class="cart-img">
+              <img src="images/bag-svg.svg" class="add-to-cart" />
+            </div>
+            <a href="https://plantora/product/desert-bloom/"
+              ><img src="images/trending-product-2.jpg" class="plant-img"
+            /></a>
+          </div>
+          <div class="card-content">
+            <a
+              href="https://plantora/product/desert-bloom/"
+              class="product-name"
+              >Desert Bloom</a
+            >
+            <p class="product-desc">Indoor Plants</p>
+            <span class="price">$70.00</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="card-image">
+            <div class="cart-img">
+              <img src="images/bag-svg.svg" class="add-to-cart" />
+            </div>
+            <a href="https://plantora/product/tropical-breeze/"
+              ><img src="images/trending-product-3.jpg" class="plant-img"
+            /></a>
+          </div>
+          <div class="card-content">
+            <a
+              href="https://plantora/product/tropical-breeze/"
+              class="product-name"
+              >Tropical Breeze</a
+            >
+            <p class="product-desc">Indoor Plants</p>
+            <span class="price">$80.00</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sale Section -->
+    <section class="sale-section">
+      <div class="sale-content">
+        <h2 class="sale-heading">Flash Sale: Up to 50% Off On Select Items!</h2>
+        <p class="sale-desc">
+          Don't miss out on our flash sale event! For a limited time, enjoy up
+          to 50% off on a selection of our best-selling products.
+        </p>
+        <button class="sale-btn">Shop Now</button>
+      </div>
+    </section>
+
+    <!-- Categories section -->
+    <section class="category-section">
+      <div>
+        <h2 class="section-heading">Our Categories</h2>
+      </div>
+      <div class="category-content">
+        <div class="category-card">
+          <div class="card-image">
+            <img src="images/category-1.png" class="category-img" />
+          </div>
+          <span class="category-name">Houseplants</span>
+        </div>
+        <div class="category-card">
+          <div class="card-image">
+            <img src="images/category-2.png" class="category-img" />
+          </div>
+          <span class="category-name">Outdoor Plants</span>
+        </div>
+        <div class="category-card">
+          <div class="card-image">
+            <img src="images/category-3.png" class="category-img" />
+          </div>
+          <span class="category-name">Succulents</span>
+        </div>
+        <div class="category-card">
+          <div class="card-image">
+            <img src="images/category-4(1).png" class="category-img" />
+          </div>
+          <span class="category-name">Desert Bloom</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="stats-container">
+        <div class="stats-img-box">
+          <img src="images/premier-img(1).jpg" class="stats-img" />
+        </div>
+        <div class="stats-content">
+          <div class="stats-text">
+            <h2 class="stats-heading">
+              Your Premier Desitination for All Green.
+            </h2>
+            <p class="stats-desc">
+              At Plantora, we believe in the transformative power of plants.
+              Whether you're a seasoned gardener or just starting your green
+              journey, our curated selection of plants will inspire and enrich
+              your living space.
+            </p>
+          </div>
+          <hr />
+          <div class="stats-box">
+            <div class="satisfied-customers">
+              <span class="stats-percent">98%</span>
+              <span class="stats-percent-desc">Customer Satisfaction</span>
+            </div>
+            <div class="plants-sold">
+              <span class="stats-number">103k</span>
+              <span class="plants-sold-desc">Plants sold</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Products section -->
+    <section class="popular-products">
+      <div>
+        <h2 class="section-heading">Popular Products</h2>
+      </div>
+      <div class="products">
+        <div class="product-card">
+          <div class="card-image">
+            <div class="cart-img">
+              <img src="images/bag-svg.svg" class="add-to-cart" />
+            </div>
+            <a href="https://plantora/product/starlight-succulents/"
+              ><img src="images/trending-product-1.jpg" class="plant-img"
+            /></a>
+          </div>
+          <div class="card-content">
+            <a
+              href="https://plantora/product/starlight-succulents/"
+              class="product-name"
+              >Starlight Succulents</a
+            >
+            <p class="product-desc">Indoor Plants</p>
+            <span class="price">$95.00</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="card-image">
+            <div class="cart-img">
+              <img src="images/bag-svg.svg" class="add-to-cart" />
+            </div>
+            <a href="https://plantora/product/zen-bamboo-groove/"
+              ><img src="images/trending-product-2.jpg" class="plant-img"
+            /></a>
+          </div>
+          <div class="card-content">
+            <a
+              href="https://plantora/product/zen-bamboo-groove/"
+              class="product-name"
+              >Zen Bamboo Groove</a
+            >
+            <p class="product-desc">Indoor Plants</p>
+            <span class="price">$90.00</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="card-image">
+            <div class="cart-img">
+              <img src="images/bag-svg.svg" class="add-to-cart" />
+            </div>
+            <a href="https://plantora/product/silver-mist/"
+              ><img src="images/trending-product-3.jpg" class="plant-img"
+            /></a>
+          </div>
+          <div class="card-content">
+            <a href="https://plantora/product/silver-mist/" class="product-name"
+              >Silver Mist</a
+            >
+            <p class="product-desc">Indoor Plants</p>
+            <span class="price">$92.00</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- customer reviews section -->
+    <section class="reviews-section">
+      <div class="reviews-container">
+        <div class="left-box">
+          <div class="reviews-heading">
+            <h3>What Our Customers say</h3>
+            <p>
+              Discover the reasons why people loves us and become your go-to
+              partner.
+            </p>
+          </div>
+          <div class="review-box">
+            <div class="review-box-content">
+              <div class="svg-box">
+                <svg
+                  fill="#77ad39"
+                  height="200px"
+                  width="200px"
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 198 198"
+                  xml:space="preserve"
+                  transform="rotate(180)"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g>
+                      <path
+                        d="M0,92.905h48.024c-0.821,35-10.748,38.973-23.216,40.107L20,133.608v38.486l5.542-0.297 c16.281-0.916,34.281-3.851,46.29-18.676C82.359,140.125,87,118.893,87,86.3V25.905H0V92.905z"
+                      ></path>
+                      <path
+                        d="M111,25.905v67h47.383c-0.821,35-10.427,38.973-22.895,40.107L131,133.608v38.486l5.222-0.297 c16.281-0.916,34.442-3.851,46.451-18.676C193.199,140.125,198,118.893,198,86.3V25.905H111z"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <div class="review">
+                I am absolutely thrilled with the service I received from their
+                company! They were attentive, responsive, and genuinely cared
+                about meeting my needs. I highly recommend them.
+              </div>
+              <div class="reviewer-info">
+                <div class="reviewer-img-box">
+                  <img src="images/reviewer-img-1.jpg" class="reviewer-img" />
+                </div>
+                <div class="reviewer-name">Your Client</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-box">
+          <div class="review-box">
+            <div class="review-box-content">
+              <div class="svg-box">
+                <svg
+                  fill="#77ad39"
+                  height="200px"
+                  width="200px"
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 198 198"
+                  xml:space="preserve"
+                  transform="rotate(180)"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g>
+                      <path
+                        d="M0,92.905h48.024c-0.821,35-10.748,38.973-23.216,40.107L20,133.608v38.486l5.542-0.297 c16.281-0.916,34.281-3.851,46.29-18.676C82.359,140.125,87,118.893,87,86.3V25.905H0V92.905z"
+                      ></path>
+                      <path
+                        d="M111,25.905v67h47.383c-0.821,35-10.427,38.973-22.895,40.107L131,133.608v38.486l5.222-0.297 c16.281-0.916,34.442-3.851,46.451-18.676C193.199,140.125,198,118.893,198,86.3V25.905H111z"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <div class="review">
+                I am absolutely thrilled with the service I received from their
+                company! They were attentive, responsive, and genuinely cared
+                about meeting my needs. I highly recommend them.
+              </div>
+              <div class="reviewer-info">
+                <div class="reviewer-img-box">
+                  <img src="images/reviewer-img-2.jpg" class="reviewer-img" />
+                </div>
+                <div class="reviewer-name">Your Client</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-box">
+            <div class="review-box-content">
+              <div class="svg-box">
+                <svg
+                  fill="#77ad39"
+                  height="200px"
+                  width="200px"
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 198 198"
+                  xml:space="preserve"
+                  transform="rotate(180)"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g>
+                      <path
+                        d="M0,92.905h48.024c-0.821,35-10.748,38.973-23.216,40.107L20,133.608v38.486l5.542-0.297 c16.281-0.916,34.281-3.851,46.29-18.676C82.359,140.125,87,118.893,87,86.3V25.905H0V92.905z"
+                      ></path>
+                      <path
+                        d="M111,25.905v67h47.383c-0.821,35-10.427,38.973-22.895,40.107L131,133.608v38.486l5.222-0.297 c16.281-0.916,34.442-3.851,46.451-18.676C193.199,140.125,198,118.893,198,86.3V25.905H111z"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <div class="review">
+                I am absolutely thrilled with the service I received from their
+                company! They were attentive, responsive, and genuinely cared
+                about meeting my needs. I highly recommend them.
+              </div>
+              <div class="reviewer-info">
+                <div class="reviewer-img-box">
+                  <img src="images/reviewer-img-3.jpg" class="reviewer-img" />
+                </div>
+                <div class="reviewer-name">Your Client</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop Callout Section -->
+    <section class="callout-section">
+      <div class="overlay">
+        <div class="callout-content">
+          <h2 class="callout-heading">Ready to Find your Perfect Plant?</h2>
+          <p class="callout-desc">
+            Browse our online store or visit us in person to experience the
+            beauty of nature.
+          </p>
+          <a href="shop.html" class="callout-btn" target="_blank">Shop Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="https://plantora.net"
+              ><img src="images/logo-black.png" class="footer-logo-img"
+            /></a>
+          </div>
+          <div class="footer-nav">
+            <ul class="footer-nav-links">
+              <li><a href="index.html" target="_blank">Home</a></li>
+              <li><a href="shop.html" target="_blank">Shop</a></li>
+              <li><a href="about.html" target="_blank">About</a></li>
+              <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+          </div>
+          <div class="social-acc">
+            <ul class="social-acc-links">
+              <li>
+                <a href="contact.html" target="_blank"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="social-acc-logo fb-logo"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H12V13H11C10.4477 13 10 12.5523 10 12C10 11.4477 10.4477 11 11 11H12V9.5C12 7.567 13.567 6 15.5 6H16.1C16.6523 6 17.1 6.44772 17.1 7C17.1 7.55228 16.6523 8 16.1 8H15.5C14.6716 8 14 8.67157 14 9.5V11H16.1C16.6523 11 17.1 11.4477 17.1 12C17.1 12.5523 16.6523 13 16.1 13H14V20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6Z"
+                        fill="#000000"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" target="_blank">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="social-acc-logo insta-logo"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                        fill="#0F0F0F"
+                      ></path>
+                      <path
+                        d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                        fill="#0F0F0F"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                        fill="#0F0F0F"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" target="_blank">
+                  <svg
+                    fill="#000000"
+                    viewBox="0 -4 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="xMidYMid"
+                    class="social-acc-logo yt-logo"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M30.722,20.579 C30.137,21.894 28.628,23.085 27.211,23.348 C27.066,23.375 23.603,24.000 16.010,24.000 L15.990,24.000 C8.398,24.000 4.932,23.375 4.788,23.349 C3.371,23.085 1.861,21.894 1.275,20.578 C1.223,20.461 0.001,17.647 0.001,12.000 C0.001,6.353 1.223,3.538 1.275,3.421 C1.861,2.105 3.371,0.915 4.788,0.652 C4.932,0.625 8.398,-0.000 15.990,-0.000 C23.603,-0.000 27.066,0.625 27.210,0.651 C28.628,0.915 30.137,2.105 30.723,3.420 C30.775,3.538 32.000,6.353 32.000,12.000 C32.000,17.647 30.775,20.461 30.722,20.579 ZM28.893,4.230 C28.581,3.529 27.603,2.759 26.845,2.618 C26.813,2.612 23.386,2.000 16.010,2.000 C8.615,2.000 5.185,2.612 5.152,2.618 C4.394,2.759 3.417,3.529 3.104,4.234 C3.094,4.255 2.002,6.829 2.002,12.000 C2.002,17.170 3.094,19.744 3.106,19.770 C3.417,20.471 4.394,21.241 5.153,21.382 C5.185,21.388 8.615,22.000 15.990,22.000 L16.010,22.000 C23.386,22.000 26.813,21.388 26.846,21.382 C27.604,21.241 28.581,20.471 28.894,19.766 C28.904,19.744 29.998,17.170 29.998,12.000 C29.998,6.830 28.904,4.255 28.893,4.230 ZM13.541,17.846 C13.379,17.949 13.193,18.000 13.008,18.000 C12.842,18.000 12.676,17.959 12.525,17.875 C12.206,17.699 12.008,17.364 12.008,17.000 L12.008,7.000 C12.008,6.637 12.204,6.303 12.521,6.127 C12.838,5.950 13.227,5.958 13.534,6.149 L21.553,11.105 C21.846,11.286 22.026,11.606 22.027,11.951 C22.028,12.296 21.852,12.618 21.560,12.801 L13.541,17.846 ZM14.009,8.794 L14.009,15.189 L19.137,11.963 L14.009,8.794 Z"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" target="_blank">
+                  <svg
+                    fill="#000000"
+                    xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="xMidYMid"
+                    viewBox="0 0 31.812 26"
+                    class="social-acc-logo twitter-logo"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M20.877,2.000 C22.519,2.000 24.382,2.652 25.426,3.738 C26.724,3.486 27.949,3.025 29.050,2.386 C28.625,3.687 27.718,4.779 26.540,5.469 C27.693,5.332 28.797,5.035 29.820,4.590 C29.054,5.707 28.087,6.690 26.971,7.477 C26.981,7.715 26.987,7.955 26.987,8.195 C26.987,15.562 21.445,24.000 10.939,24.000 C7.715,24.000 4.507,23.133 1.982,21.551 C2.428,21.605 2.883,21.631 3.343,21.631 C6.019,21.631 8.482,20.740 10.439,19.242 C7.937,19.199 5.827,17.586 5.103,15.373 C5.450,15.437 5.810,15.473 6.178,15.473 C6.696,15.473 7.203,15.406 7.681,15.277 C5.068,14.768 3.100,12.514 3.100,9.813 C3.100,9.787 3.100,9.764 3.100,9.740 C3.871,10.158 4.750,10.410 5.687,10.440 C4.154,9.437 3.147,7.734 3.147,5.799 C3.147,4.777 3.428,3.818 3.919,2.998 C6.735,6.367 10.945,8.588 15.693,8.822 C15.594,8.414 15.543,7.984 15.543,7.553 C15.543,4.473 17.721,2.000 20.877,2.000 M29.820,4.590 L29.825,4.590 M20.877,-0.000 C17.033,-0.000 14.060,2.753 13.614,6.552 C10.425,5.905 7.524,4.204 5.440,1.711 C5.061,1.257 4.503,0.998 3.919,0.998 C3.867,0.998 3.815,1.000 3.763,1.004 C3.123,1.055 2.547,1.413 2.216,1.966 C1.525,3.122 1.159,4.447 1.159,5.799 C1.159,6.700 1.321,7.579 1.625,8.400 C1.300,8.762 1.113,9.238 1.113,9.740 L1.113,9.813 C1.113,11.772 1.882,13.589 3.160,14.952 C3.087,15.294 3.103,15.655 3.215,15.998 C3.657,17.348 4.459,18.510 5.499,19.396 C4.800,19.552 4.079,19.631 3.343,19.631 C2.954,19.631 2.577,19.609 2.222,19.565 C2.141,19.556 2.061,19.551 1.981,19.551 C1.148,19.551 0.391,20.078 0.108,20.886 C-0.202,21.770 0.140,22.753 0.932,23.249 C3.764,25.023 7.318,26.000 10.939,26.000 C17.778,26.000 22.025,22.843 24.383,20.195 C27.243,16.984 28.907,12.718 28.972,8.455 C29.899,7.682 30.717,6.790 31.410,5.792 C31.661,5.458 31.810,5.041 31.810,4.590 C31.810,3.909 31.473,3.308 30.958,2.946 C31.181,2.176 30.925,1.342 30.303,0.833 C29.940,0.537 29.496,0.386 29.049,0.386 C28.708,0.386 28.365,0.474 28.056,0.654 C27.391,1.040 26.680,1.344 25.931,1.562 C24.555,0.592 22.688,-0.000 20.877,-0.000 L20.877,-0.000 Z"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="breaker">
+          <hr />
+        </div>
+        <div class="copyright-content">
+          <span class="copyright"
+            >Copyright &copy; 2025 Plantora eCommerce</span
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
